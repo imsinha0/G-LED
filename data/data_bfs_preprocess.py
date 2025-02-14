@@ -2,7 +2,7 @@ import numpy as np
 import pdb
 from torch.utils.data import Dataset, DataLoader
 import torch
-import matplotlib.pyploxt as plt
+import matplotlib.pyplot as plt
 import os
 from tqdm import tqdm
 
