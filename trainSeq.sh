@@ -8,7 +8,6 @@
 #SBATCH -e myerrors_%j.err  # File to which STDERR will be written, %j inserts jobid
 #SBATCH --mail-type=END
 #SBATCH --mail-user=imsinha@college.harvard.edu
-#SBATCH --test-only
 
 source ~/.bashrc
 conda activate gledReal
