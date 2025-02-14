@@ -115,7 +115,7 @@ class Args:
                                  default=True,
                                  help = 'shuffle the batch')
         self.parser.add_argument("--device",
-                                 default='cuda:1')
+                                 default='cuda:0')
         self.parser.add_argument("--epoch_num", 
                                  default = 10000,
                                  help='epoch_num')
