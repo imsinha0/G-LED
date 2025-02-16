@@ -49,7 +49,7 @@ class Args:
 		"""
 		self.parser.add_argument("--batch_size", default = 1)
 		self.parser.add_argument("--epoch_num", default = 20)
-		self.parser.add_argument("--device", type=str, default = "cuda:1")
+		self.parser.add_argument("--device", type=str, default = "cuda:0")
 		self.parser.add_argument("--shuffle",default=True)
 		
 
