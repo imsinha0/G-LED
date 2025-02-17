@@ -22,7 +22,7 @@ class Args_seq_sample:
 		for training args txt
 		"""
 		self.parser.add_argument("--train_args_txt", 
-		default = 'output/bfs_les_2023_10_31_17_49_35/logging/args.txt',
+		default = 'output/bfs_les_2025_02_14_09_56_02/logging/args.txt',
 								help = 'load the args_train')
 		self.parser.add_argument("--Nt_read",
 								 default = 30,

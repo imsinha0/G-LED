@@ -27,7 +27,7 @@ class Args_final_eval:
 		for finding the dynamics dir
 		"""
 		self.parser.add_argument("--bfs_dynamic_folder", 
-								 default='output/bfs_les_2023_12_21_12_09_10',
+								 default='output/bfs_les_2025_02_14_09_56_02',
 								 help='all the information of bfs training')
 		
 		"""
